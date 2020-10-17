@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="@string/welcome_title"
-            android:textSize="16sp" />
+            style="@style/blue_label.title"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -35,8 +35,11 @@
 
         <Button
             android:id="@+id/welcomeContinueButton"
+            style="@style/button.dark.blue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="45dp"
             android:text="@string/welcome_continue" />
     </LinearLayout>
 
